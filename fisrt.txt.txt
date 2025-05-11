@@ -10,6 +10,6 @@
   <p>Đây là trang web đầu tiên của tôi dùng để luyện Git.</p>
   <button onclick="showMessage()">Bấm vào tôi</button>
 
-  <script src="script.js"></script>
+  <script src="script.js"></script>hoatest
 </body>
 </html>
