@@ -31,13 +31,6 @@ def update_todo(todo_id, title=None, description=None, done=None):
     if done is not None:def update_todo(todo_id, tit
         todo['done'] = donedef update_todo(todo_idef update_todo(todo_id, titd, tit
     return todo_hôm nay hoa test conflct nhédef update_todo(todo_id, tit
-if title is not None:
-        todo['title'] = title
-    if description is not None:
-        todo['description'] = description
-    if done is not None:
-        todo['done'] = done
-    return todo_hôm nay hoa test conflct nhé
 
 def delete_todo(todo_id):
     return todos.pop(todo_id, None)
