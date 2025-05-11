@@ -30,7 +30,7 @@ def update_todo(todo_id, title=None, description=None, done=None):
         todo['description'] = description
     if done is not None:
         todo['done'] = done
-    return todo
+    return todo_hoa
 
 def delete_todo(todo_id):
     return todos.pop(todo_id, None)
