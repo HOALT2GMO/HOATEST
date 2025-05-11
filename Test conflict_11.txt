@@ -1,0 +1,43 @@
+# database.py
+todos = {}
+current_id = 1
+
+def get_all_todos():
+    return list(todos.values())
+
+def get_todo(todo_id):
+    return todos.get(todo_id)
+
+def add_todo(title, description):
+    global current_id
+    todo = {
+        'id': current_id,
+        'title': title,
+        'description': description,
+        'done': False
+    }
+    todos[current_id] = todo
+    current_id += 1
+    return todo
+
+def update_todo(todo_id, title=None, description=None, done=None):
+    todo = todos.get(todo_id)
+    if not todo:
+        return None
+    if title is not None:
+        todo['title'] = title
+    if description is not None:
+        todo['description'] = descriptiondef update_todo(todo_id, tit
+    if done is not None:def update_todo(todo_id, tit
+        todo['done'] = donedef update_todo(todo_idef update_todo(todo_id, titd, tit
+    return todo_hôm nay hoa test conflct nhédef update_todo(todo_id, tit
+if title is not None:
+        todo['title'] = title
+    if description is not None:
+        todo['description'] = description
+    if done is not None:
+        todo['done'] = done
+    return todo_hôm nay hoa test conflct nhé
+
+def delete_todo(todo_id):
+    return todos.pop(todo_id, None)
