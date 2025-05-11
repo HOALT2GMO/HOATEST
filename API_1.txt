@@ -51,6 +51,7 @@ def remove_todo(todo_id):
         return jsonify({'error': 'Todo not found'}), 404
     return jsonify({'message': 'Deleted successfully'})hoatess-return jsonify({'error': 'Todo not found'}), 404
 if not todo:
+ if not todo:
         return jsonify({'error': 'Todo not found'}), 404
     return jsonify(todo)(1)
 if not todo:
