@@ -9,9 +9,12 @@
   <h1>Xin chào GitHub!</h1>
   <p>Đây là trang web đầu tiên của tôi dùng để luyện Git.</p>
   <button onclick="showMessage()">Bấm vào tôi</button>
-<h1>Xin chào GitHub!</h1>
+ <h1>Xin chào GitHub!</h1>
   <p>Đây là trang web đầu tiên của tôi dùng để luyện Git.</p>
-  <button onclick="showMessage()">Bấm vào tôi</button
+  <button onclick="showMessage()">Bấm vào tôi</button>
+ <h1>Xin chào GitHub!</h1>
+  <p>Đây là trang web đầu tiên của tôi dùng để luyện Git.</p>
+  <button onclick="showMessage()">Bấm vào tôi</button>
   <script src="script.js"></script>hoatest_hoatesst12_hoatesstconfilct
 </body>
 </html>
